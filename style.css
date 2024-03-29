@@ -27,7 +27,7 @@ body {
     position: fixed;
     top: 50%;
     left: 50%;
-    /* width: 90%; */
+    /* max-width: 90%; */
 }
 
 .box {
@@ -38,15 +38,21 @@ body {
     display: flex;
 }
 
-.date {
+.date, .text {
     background-color: white;
     color: red;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    padding: 10px;
-    text-align: center;
     font-family: seven-segment;
     font-size: 1.5rem;
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.date {
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .clock {
@@ -67,14 +73,7 @@ body {
 }
 
 .text {
-    background-color: white;
-    font-size: 1.5rem;
-    color: red;
-    padding: 10px;
-    text-align: center;
     margin-top: 20px;
-    border-radius: 10px;
-    text-transform: uppercase;
 }
 
 .colon {
@@ -94,7 +93,6 @@ body {
 
     .date, .text {
         font-size: 1rem;
-        letter-spacing: 0.1em;
     }
 
     .colon {
