@@ -86,15 +86,11 @@ body {
 }
 
 @media (max-width: 550px) {
-    .number {
+    .number, .colon {
         font-size: 3rem;
     }
 
     .date, .text {
         font-size: 1rem;
-    }
-
-    .colon {
-        font-size: 3rem;
     }
 }
